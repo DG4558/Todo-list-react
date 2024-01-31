@@ -1,9 +1,3 @@
-.Todo-container{
-    margin-top: 65px;
-    margin-bottom: 40px;
-}
-
-
 .todoitem{
     display: grid;
     grid-template-columns: 260px 150px 150px;

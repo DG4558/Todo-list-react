@@ -1,0 +1,44 @@
+.input-field{
+    display: grid;
+    grid-template-columns: 260px 150px 150px;
+    column-gap: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.input-text{
+    height: 50px;
+    border: 2px solid gainsboro;
+    color:gray;
+    font-size: 20px;
+    
+}
+
+.input-text:focus{
+    outline: none;
+}
+
+.input-date{
+    height: 50px;
+    border: 2px solid gainsboro;
+    color:gray;
+    font-size: 15px;
+}
+
+.input-date:focus{
+    outline: none;
+}
+
+.btn{
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: capitalize;
+    background-color: green;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
